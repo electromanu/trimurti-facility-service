@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trimurti Facility Services | Professional Facility Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+   {% include "header.html" %}
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-tag">Since 2010</div>
+            <h1>Excellence in Facility Management</h1>
+            <p>Trimurty Facility Services is a trusted provider of professional facility management solutions dedicated to maintaining clean, secure, and efficient environments for residential, commercial, and industrial properties. Our goal is to support organizations by managing essential facility services so that our clients can focus on their core business operations without worrying about day-to-day maintenance and operational challenges.</p>
+            <div class="hero-badges">
+                <div class="badge">
+                    <i class="fas fa-clock"></i>
+                    <span>24/7 Support</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>ISO Certified</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-users"></i>
+                    <span>500+ Clients</span>
+                </div>
+            </div>
+            <a href="/service" class="btn">Explore Our Services <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800" alt="Facility Management Team">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>Comprehensive facility management solutions tailored to your needs</p>
+        </div>
+        
+        
+        <div class="services-grid">
+           <a href="service#plumbing" style="text-decoration: none;"> <div class="service-card" >
+                <div class="service-icon">
+                    <i class="fas fa-faucet"></i>
+                </div>
+                <h3>Plumbing Services</h3>
+                <p>Expert plumbing solutions for residential and commercial properties. From repairs to installations, we've got you covered.</p>
+            </div></a>
+
+
+
+            <a href="service#security"  style="text-decoration: none;" ><div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Security Services</h3>
+                <p>24/7 professional security personnel and surveillance systems to keep your premises safe and secure.</p>
+            </div></a>
+
+
+
+           <a href="service#housekeeping"  style="text-decoration: none;" > <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-broom"></i>
+                </div>
+                <h3>Housekeeping</h3>
+                <p>Impeccable cleaning and maintenance services for pristine environments in homes, offices, and commercial spaces.</p>
+            </div></a>
+
+
+            <a href="service#pool"  style="text-decoration: none;" ><div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-swimming-pool"></i>
+                </div>
+                <h3>Pool Maintenance</h3>
+                <p>Complete swimming pool care from cleaning to chemical balancing, ensuring crystal clear water year-round.</p>
+            </div></a>
+
+
+            <a href="service#electrical"  style="text-decoration: none;" ><div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Electrical Services</h3>
+                <p>Licensed electricians for installations, repairs, and maintenance of all electrical systems.</p>
+            </div></a>
+
+
+
+            <a href="service#garden"  style="text-decoration: none;" ><div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-leaf"></i>
+                    </div>
+                
+                <h3>Garden Maintenance</h3>
+                <p>Professional landscaping and grounds keeping services to maintain beautiful outdoor spaces.</p>
+            </div></a>
+
+
+
+            <a href="service#stp"  style="text-decoration: none;"><div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+               <h3>STP Maintenance Operator</h3>
+<p>Professional sewage treatment plant operation and maintenance services ensuring proper wastewater management and environmental safety.</p>
+</div></a>
+
+
+            <a href="service#pest"  style="text-decoration: none;"><div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+               <h3>Pest Control Services</h3>
+<p>Effective pest control solutions to eliminate insects, rodents, and termites while maintaining a safe and hygienic environment.</p>
+</div></a>
+
+
+           <a href="service#manager"  style="text-decoration: none;"> <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Facility Manager</h3>
+<p>Professional facility managers to oversee daily operations, coordinate teams, and maintain high standards of safety and efficiency.</p>
+</div></a>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800" alt="About Trimurti">
+        </div>
+        <div class="about-content">
+            <h2>About Trimurti</h2>
+            <p>Founded in 2010, Trimurti Facility Services has grown from a small local service provider to one of India's most trusted facility management companies. We serve over 500 clients across residential complexes, commercial buildings, hotels, hospitals, and industrial facilities.</p>
+            <p>Our experienced workforce is trained to handle different aspects of facility management including security operations, maintenance services, cleaning, and infrastructure support. We ensure that every project is handled with care, efficiency, and strict quality standards.</p>
+            <p>Modern organizations require well-managed infrastructure to ensure productivity and safety. Proper facility management helps organizations reduce operational costs, maintain hygienic workplaces, and create better environments for employees and visitors.</p>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Active Clients</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2000+</div>
+                    <div class="stat-label">Staff Members</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">14+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">ISO</div>
+                    <div class="stat-label">Certified</div>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <h2>Client Testimonials</h2>
+            <p>What our clients say about our services</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">Trimurti has been managing our apartment complex for 3 years. Their housekeeping and security services are exceptional. Highly recommended!</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Rajesh Sharma">
+                    <div class="author-info">
+                        <h4>Rajesh Sharma</h4>
+                        <span>Apex Residency, Mumbai</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">The swimming pool maintenance team is fantastic. Our pool is always crystal clear and ready for residents. Professional and reliable service.</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="Priya Patel">
+                    <div class="author-info">
+                        <h4>Priya Patel</h4>
+                        <span>Green Valley Society, Pune</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">Their plumbing team responded within 30 minutes during an emergency. Fixed the issue professionally. Great 24/7 support!</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100" alt="Amit Kumar">
+                    <div class="author-info">
+                        <h4>Amit Kumar</h4>
+                        <span>Metro Hospital, Delhi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-header">
+            <h2>Our Work</h2>
+            <p>See the quality of our facility management services</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" alt="Office Cleaning">
+                <div class="gallery-overlay">
+                    <h4>Commercial Cleaning</h4>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipOSqFRJjHrlFsqeRb30aZozxsTFkwcPaJIy1RgU=s1360-w1360-h1020-rw" alt="Pool Maintenance">
+                <div class="gallery-overlay">
+                    <h4>Pool Maintenance</h4>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepatJvoIHUg-VV4k-_SGRvz2sFd2ggEydtHuzLdocKWte-g_Ial62cq06jCeK3R-98NIGx3jzYxg-pb2MqGYqQiRf-yAP16zsT2rCLIc8q0sKqLWY5LplZpPv82e96_PflnB-qc=s1360-w1360-h1020-rw" alt="Security">
+                <div class="gallery-overlay">
+                    <h4>Security Services</h4>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="{{url_for('static',filename='image/stp.jpeg')}}" alt="Garden">
+                <div class="gallery-overlay">
+                    <h4>STP Maintenance</h4>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400" alt="Housekeeping">
+                <div class="gallery-overlay">
+                    <h4>Housekeeping</h4>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400" alt="Electrical">
+                <div class="gallery-overlay">
+                    <h4>Electrical Work</h4>
+                </div>
+            </div>
+             <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipMmATZ9Gj7PDvPZXqBf2Z5a4Cozbud1Z_GKaY5i=s1360-w1360-h1020-rw" alt="Office Cleaning">
+                <div class="gallery-overlay">
+                    <h4>Facility Manager</h4>
+                </div>
+            </div>
+             <div class="gallery-item">
+                <img src="{{url_for('static',filename='image/plumbing.jpeg')}}" alt="Office Cleaning">
+                <div class="gallery-overlay">
+                    <h4>Plumbing Maintenance</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="section-header">
+            <h2>Our Leadership Team</h2>
+            <p>Meet the experienced professionals behind our success</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200" alt="Ramesh Patel">
+                <h4>Ramesh Patel</h4>
+                <span>Founder & CEO</span>
+                <p>Visionary leader with 20+ years experience</p>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200" alt="Suresh Kumar">
+                <h4>Suresh Kumar</h4>
+                <span>Operations Director</span>
+                <p>Ensuring operational excellence</p>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200" alt="Anita Sharma">
+                <h4>Anita Sharma</h4>
+                <span>Client Relations Head</span>
+                <p>Customer satisfaction champion</p>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200" alt="Deepak Verma">
+                <h4>Deepak Verma</h4>
+                <span>Technical Director</span>
+                <p>Innovation and technology leader</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <h2>Get In Touch</h2>
+            <p>Have a question or need a quote? Contact us today.</p>
+
+            <form action="/contact" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+
+        </div>
+        <div class="contact-details">
+            <h2>Contact Information</h2>
+            <p>Reach out to us through any of these channels. We're here to help 24/7.</p>
+            
+            <div class="contact-info" style="margin-top: 2rem;">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <div style="font-size: 0.85rem; color: var(--secondary);">Address</div>
+                        <span>1181, Seegehalli, Krishnarajapuram, Bengaluru, Karnataka 560115</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <div style="font-size: 0.85rem; color: var(--secondary);">Phone</div>
+                        <a href="tel:+919876543210">+91  96632 61788</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <div style="font-size: 0.85rem; color: var(--secondary);">Email</div>
+                        <a href="mailto:servicestrimurtifacility@gmail.com">servicestrimurtifacility@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+           
+           <a class="whatsapp" href="https://wa.me/919663261788" target="_blank">💬</a>
+               
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Trimurti Facility Services</h4>
+                <p style="color: #aaa; font-size: 0.9rem;">Professional facility management solutions for residential, commercial, and industrial properties.</p>
+                <div class="social-links" style="margin-top: 1.5rem;">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Plumbing</a></li>
+                    <li><a href="#services">Security</a></li>
+                    <li><a href="#services">Housekeeping</a></li>
+                    <li><a href="#services">Pool Maintenance</a></li>
+                    <li><a href="#services">Electrical</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Trimurti Facility Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+  
+</body>
+</html>
