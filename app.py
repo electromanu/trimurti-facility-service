@@ -6,6 +6,7 @@ app = Flask(__name__)
 # Email Configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
+app.config['MAIL_TIMEOUT'] = 20
 app.config['MAIL_USE_TLS'] = True
  # Use Gmail App Password
 app.config['MAIL_USERNAME'] = os.environ.get("MAIL_USERNAME")
